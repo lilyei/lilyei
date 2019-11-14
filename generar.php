@@ -10,12 +10,7 @@ $depto =$_POST['depto'];
 $ing=$_POST['ing'];
 $actividad=$_POST['actividad'];
 
-//echo $empresa;
-//echo $trabajo;
-//echo $cargo;
-//echo $depto;
-//echo $ing;
-//echo $actividad;
+
 
 
  $pdf=new FPDF();
