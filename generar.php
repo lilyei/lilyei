@@ -1,18 +1,31 @@
 <?php
 require 'fpdf/fpdf.php';
 
+
+
 $empresa=$_POST['empresa'];
 $trabajo=$_POST['trabajo'];
 $cargo=$_POST['cargo'];
 $depto =$_POST['depto'];
 $ing=$_POST['ing'];
 $actividad=$_POST['actividad'];
+
+//echo $empresa;
+//echo $trabajo;
+//echo $cargo;
+//echo $depto;
+//echo $ing;
+//echo $actividad;
+
+
  $pdf=new FPDF();
  $pdf->AddPage();
  $logo="logosmart.png";
 $Fecha=  date("d-m-Y ");
 
-
+/**
+ * }
+ */
 class pdf extends FPDF
 {
     
